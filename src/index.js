@@ -25,7 +25,7 @@ async function webDriveZippyshare(url, opts) {
 
 	const baseUrl = getBaseUrl(url)
 	if( !baseUrl )
-		throw 'invalid url'
+		return null
 
 	let res = await webDriveUtil.followLocation(url, {
 		timeout: opts.timeout,
