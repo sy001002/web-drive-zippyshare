@@ -1,0 +1,13 @@
+{
+  "name": "web-drive-zippyshare",
+  "version": "1.0.0",
+  "main": "src/index.js",
+  "repository": "https://github.com/sy001002/web-drive-zippyshare.git",
+  "author": "SY",
+  "license": "MIT",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.2",
+    "safe-eval": "^0.3.0",
+    "web-drive-util": "https://github.com/sy001002/web-drive-util.git"
+  }
+}
