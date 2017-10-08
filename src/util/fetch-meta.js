@@ -1,7 +1,7 @@
 const webDriveUtil = require('web-drive-util')
-const getBaseUrl = require('./util/get-base-url')
-const getCookie = require('./util/get-cookie')
-const getFilename = require('./util/getFilename')
+const getBaseUrl = require('./get-base-url')
+const getCookie = require('./get-cookie')
+const getFilename = require('./get-filename')
 
 /**
  * @typedef {object} result

@@ -1,4 +1,4 @@
 module.exports = {
 	getId: require('./util/get-id'),
-	fetchMeta: require('./util/fetchMeta'),
+	fetchMeta: require('./util/fetch-meta'),
 }
